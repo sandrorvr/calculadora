@@ -1,12 +1,16 @@
 #enter{
     display: flex;
     text-align: center;
-    border: 1px solid red;
     padding: 2px;
     justify-content: center;
     align-items: center;
     grid-area: enter;
     width: 6rem;
+    margin-top: 5px;
+    border-radius: 15px;
+    box-shadow: 6px 6px 0px -2px rgba(0,0,0,1);
+    font-size:x-large;
+    background-color: rgb(26, 26, 71);
   }
   
   

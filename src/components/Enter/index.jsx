@@ -3,9 +3,9 @@ import './style.css';
 
 function Plus(){
     return(
-        <div id="enter">
+        <button id="enter">
             <span>ENTER</span>
-        </div>
+        </button>
     );
 }
 

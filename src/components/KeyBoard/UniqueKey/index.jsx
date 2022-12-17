@@ -7,9 +7,9 @@ function Key ({key_label}){
     widthSTL = "12.8rem";
   }
   return (
-    <div className="key" style={{width:widthSTL}}>
+    <button className="key" style={{width:widthSTL}}>
       <span>{key_label}</span>
-    </div>
+    </button>
   );
 }
 

@@ -1,6 +1,5 @@
 .hoPoint{
     grid-area: hopoint;
-    background: #02334a;
   
     display: flex;
     flex-direction: row;

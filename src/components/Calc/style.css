@@ -4,7 +4,7 @@
   height:41rem;
   border: 1px solid withe;
   border-radius: 15px;
-  background: #065275;
+  background: #0e2558;
   display: grid;
   grid-row: repeat(6, 1fr);
   grid-column: repeat(4, 1fr);
@@ -17,4 +17,5 @@
                 'keyBoard keyBoard keyBoard enter'
                 'hopoint hopoint hopoint enter'
                 ;
+  box-shadow: 6px 6px 0px -2px rgb(21, 8, 56);
 }

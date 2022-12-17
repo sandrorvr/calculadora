@@ -6,9 +6,9 @@ function Plus({sinbol}){
         gridArea:'enter',
     };
     return(
-        <div id="plus">
+        <button id="plus">
             <span style={stl}>+</span>
-        </div>
+        </button>
     );
 }
 

@@ -1,6 +1,5 @@
 .keySpecial{
     grid-area: special;
-    background: #02334a;
   
     display: flex;
     flex-direction: row;

@@ -1,6 +1,5 @@
 .keyBoard{
   grid-area: keyBoard;
-  background: #02334a;
 
   display: flex;
   flex-direction: row;
