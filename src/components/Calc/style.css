@@ -1,0 +1,17 @@
+#calc{
+  width:27rem;
+  height:35rem;
+  border: 1px solid withe;
+  border-radius: 15px;
+  background: #065275;
+  display: grid;
+  grid-column: repeat(4, 0.8fr);
+  grid-row: 2fr repeat(3, 0.8fr) 1fr;
+  grid-gap: 0.3rem;
+  grid-template:
+                'view view view view'
+                'key key key key'
+                'key key key key'
+                'key key key key'
+                'key key key key';
+}
