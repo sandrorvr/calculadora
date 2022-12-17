@@ -1,10 +1,13 @@
 import React from "react";
 import './style.css';
 
-function Plus(){
+function Plus({sinbol}){
+    const stl ={
+        gridArea:'enter',
+    };
     return(
         <div id="plus">
-            <span>+</span>
+            <span style={stl}>+</span>
         </div>
     );
 }

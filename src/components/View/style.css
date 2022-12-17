@@ -1,0 +1,8 @@
+.view{
+    grid-area: view;
+    background: #e4e4e4;
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+
+}
