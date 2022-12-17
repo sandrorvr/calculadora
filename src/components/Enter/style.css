@@ -1,0 +1,11 @@
+#enter{
+    display: flex;
+    text-align: center;
+    border: 1px solid red;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    grid-area: enter;
+  }
+  
+  

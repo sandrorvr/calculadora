@@ -1,17 +1,20 @@
 #calc{
+  padding: 10px;
   width:27rem;
   height:35rem;
   border: 1px solid withe;
   border-radius: 15px;
   background: #065275;
   display: grid;
-  grid-column: repeat(4, 0.8fr);
-  grid-row: 2fr repeat(3, 0.8fr) 1fr;
-  grid-gap: 0.3rem;
+  grid-row: repeat(6, 1fr);
+  grid-column: repeat(4, 1fr);
+  grid-gap: 0.7rem;
   grid-template:
                 'view view view view'
-                'key key key key'
-                'key key key key'
-                'key key key key'
-                'key key key key';
+                'special special special special'
+                'keyBoard keyBoard keyBoard plus'
+                'keyBoard keyBoard keyBoard plus'
+                'keyBoard keyBoard keyBoard enter'
+                'ho ho point enter'
+                ;
 }

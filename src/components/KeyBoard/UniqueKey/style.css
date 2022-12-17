@@ -1,0 +1,12 @@
+.key{
+  display: flex;
+  text-align: center;
+  border: 1px solid red;
+  padding: 2px;
+  width: 6rem;
+  height: 6rem;
+  justify-content: center;
+  align-items: center;
+  margin: 5px auto;
+}
+

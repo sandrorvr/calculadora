@@ -1,10 +1,16 @@
 import  React from 'react'
 import './style.css'
 
-function Calc ({children}){
+import KeyBoard from '../KeyBoard';
+import Enter from '../Enter';
+import Plus from '../Plus';
+
+function Calc (){
   return (
     <div id="calc">
-      {children}
+      <KeyBoard />
+      <Plus sinbol={"+"}/>
+      <Enter sinbol={"enter"}/>
     </div>
   );
 }
